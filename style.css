@@ -63,6 +63,7 @@ nav a {
     text-align: justify; /* Set the text alignment to justify */
     margin: 0 20px;
     font-family: 'Montserrat', sans-serif; /* Use the "Montserrat" font or replace it with your preferred font */
+    overflow-wrap: break-word; /* Prevent long words from breaking the layout */
 }
 
 .social-links {
@@ -78,7 +79,7 @@ nav a {
 
 .social-links img {
     max-width: 40px; /* Adjust the image size as needed */
-    margin: 5px 10px; /* Adjust the margin as needed */
+    margin: 5px 5px; /* Adjust the margin as needed */
 }
 
 a {
